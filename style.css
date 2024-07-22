@@ -1,0 +1,16 @@
+:root {
+
+    --background-color: #F5F4F0;
+    --border-color: #D9D9D9;
+
+    --text-color-primary: #1B1B1B;
+    --text-color-secondary: #333333;
+    --text-color-tertiary: #696969;
+    --text-color-headline: #E1624F;
+
+    --accent-color-blue: #0C51A7;
+    --accent-color-orange: #E95E10;
+    --accent-color-pink: #E5245E;
+    --accent-color-purple: #591B98;
+
+}
