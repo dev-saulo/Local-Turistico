@@ -16,17 +16,21 @@
 
 }
 
-body {
-    background: var(--background-color);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#page {
+body {
+    background: var(--background-color);
     box-sizing: border-box;
     width: 1120px;
     margin: 60px auto;
 }
 
 .headline {
+    padding-top: 24px;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -34,22 +38,24 @@ body {
     color: var(--text-color-headline);
 }
 
+.text {
+    margin: 8px 0 64px 0;
+}
+
 .title {
     color: var(--text-color-primary);
-    /* h1 */
     font-size: 36px;
     font-style: normal;
 }
 
 section > img {
-    height: 660px;
+    height: 630px;
     border-radius: 28px;
 }
 
 figcaption {
     color: var(--text-color-secondary);
     text-align: center;
-    /* subtitle */
     font-family: "Open Sans";
     font-size: 16px;
     font-style: italic;
@@ -60,5 +66,54 @@ figcaption {
 #line {
     width: 1120px;
     border: 1px solid var(--border-color);
-    margin: 40px 0 64px 0;
+    margin: 40px auto 40px ;
+}
+
+#card > img {
+    height: 350px;
+    width: 100%;
+    margin: 48px 0 20px 0;
+    border-radius: 28px;
+}
+
+.sugestion {
+    margin-top: 50px;
+}
+
+li {
+    margin-left: 20px;
+}
+
+.history {
+    color: var(--accent-color-blue);
+}
+
+.couple {
+    color: var(--accent-color-purple);
+}
+
+.family {
+    color: var(--accent-color-pink);
+}
+
+.budget {
+    color: var(--accent-color-orange);
+}
+
+.endText {
+    color: var(--text-color-secondary);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer {
+    color: var(--text-color-secondary);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin-top: 65px;
 }
